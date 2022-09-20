@@ -1,0 +1,8 @@
+<launch>
+  <include ns="lidar0" file="$(find ydlidar_ros)/launch/X2L.launch">
+    <arg name="port"         type="string" value="/dev/ttyUSB0"/>
+    </include>
+  <include ns="lidar1" file="$(find ydlidar_ros)/launch/X2L.launch">
+    <arg name="port"         type="string" value="/dev/ttyUSB1"/>
+    </include>
+</launch>
