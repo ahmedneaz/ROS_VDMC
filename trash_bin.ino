@@ -1,5 +1,3 @@
-#include "arduino_secrets.h"
-
 /// include library
 
 #include <Servo.h> ///servo motor library
